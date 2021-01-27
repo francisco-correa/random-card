@@ -18,12 +18,12 @@ window.onload = () => {
     randomCard = Math.floor(Math.random() * card.length);
     randomSuite = Math.floor(Math.random() * suite.length);
     document.getElementById("number").innerHTML = randomCardNumber(randomCard);
-    document.getElementById("suite").innerHTML = randomSuiteNumber(randomSuite);
-    document.getElementById("suite_2").innerHTML = randomSuiteNumber(randomSuite);
+    document.getElementById("top-suite").innerHTML = randomSuiteNumber(randomSuite);
+    document.getElementById("bottom-suite").innerHTML = randomSuiteNumber(randomSuite);
     if (suite[randomSuite] == '&hearts;' || suite[randomSuite] == '&diams;') {
-        document.getElementById("suite").style.color = "#ff0000";
-        document.getElementById("suite_2").style.color = "#ff0000";
+        document.getElementById("top-suite").style.color = "#ff0000";
+        document.getElementById("bottom-suite").style.color = "#ff0000";
     }
-    document.getElementById("suite_2").style.transform = "rotate(180deg)";
+    document.getElementById("bottom-suite").style.transform = "rotate(180deg)";
 
 }

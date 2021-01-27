@@ -23,13 +23,13 @@ h1 {
     padding-top: 1px;
 }
 
-#suite {
+#top-suite {
     margin-right: 130px;
     font-size: 80px;
 
 }
 
-#suite_2 {
+#bottom-suite {
     margin-left: 130px;
     margin-top: 15px;
     font-size: 80px;
