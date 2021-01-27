@@ -1,5 +1,10 @@
 body {
-    background-color:green;
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(20, 20, 53);
 }
 
 .card {
@@ -10,24 +15,22 @@ body {
     margin-left: auto;
     width: 200px;
     height: 300px;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 #number {
-   font-size: 60px;
-   padding-top: 20px;
+    font-size: 90px;
+    padding-top: 1px;
 }
 
 #suite {
-    margin-right: 120px;
+    margin-right: 130px;
     font-size: 80px;
-    
- }
 
- #suite_2 {
-    margin-left: 110px;
-    margin-top: 30px;
+}
+
+#suite_2 {
+    margin-left: 130px;
+    margin-top: 15px;
     font-size: 80px;
- }
-
-
+}
