@@ -1,8 +1,8 @@
-//  definir arrays
+//  arrays definition
 let card = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"]
 let suite = ['&spades;', '&clubs;', '&hearts;', '&diams;']
 
-// funcion para generar indice string, random es número
+// a function in order to generate string-index (random is a number)
 function randomCardNumber(a) {
     return card[a]
 }
@@ -10,10 +10,10 @@ function randomCardNumber(a) {
 function randomSuiteNumber(b) {
     return suite[b]
 }
-// random card y random suite (número)
-// DOM card y suite (inyección HTML - funcion - (numero->string) )
-// colores '&hearts;', '&diams;' = red
-// rotar el suite_2 a 180 grados
+// random card y random suite (number)
+// DOM card & suite (HTML inyection - function - (number to string))
+// colors '&hearts;', '&diams;' = red
+// rotate bottom-suite to 180 degrees
 window.onload = () => {
     randomCard = Math.floor(Math.random() * card.length);
     randomSuite = Math.floor(Math.random() * suite.length);
